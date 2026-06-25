@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files — download separately, see README)
+*.csv
+*.xlsx
+*.txt
+*.zip
+
+# Cached embeddings
+cache/
+*.pkl
+
+# LLM output
+llm_associations/
+
+# Figures
+*.pdf
+*.png
+
+# Environment
+.env
+*.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
